@@ -1,0 +1,94 @@
+.specialday-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .specialday-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+
+  .specialday-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  
+  .radio-container label {
+    display: block;
+    margin-bottom: -15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .radio-container label input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .radio-container label input[type="radio"]:checked + span {
+    color: #e74c3c; 
+  }
+  
+  .radio-container label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .specialday-container button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    color: black;
+    font-size: 18px;
+    padding: 10px; 
+  }
+  
+  .specialday-container ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+  .suggested-color1 {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 35%;
+    background-color: #007bff;
+}
+
+.suggested-color1:hover {
+  background-color: #2980b9; 
+  color:black;
+}
+  

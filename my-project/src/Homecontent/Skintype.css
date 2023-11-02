@@ -1,0 +1,89 @@
+.skintype-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .skintype-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+
+  .skintype-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  
+  .radio-container {
+    display: block;
+    justify-content: space-between;
+    margin: 10px;
+   
+  }
+  
+  .radio-container label {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .skintype-container button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    color: red;
+  }
+  
+  .skintype-container ul {
+    list-style-type: none;
+    padding-left: 20px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 25%;
+    background-color: #007bff;
+    
+  }
+  
+.suggested-dress-skin:hover {
+    background-color: #2980b9; 
+    color:whitesmoke;
+} 
+
+.suggested-dress-skin li {
+  font-size: 16px; 
+  color: white;
+}
+
+.suggested-dress-skin li:hover {
+  font-size: 16px; 
+  color: black;
+}
+  

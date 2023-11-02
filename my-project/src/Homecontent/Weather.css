@@ -1,0 +1,181 @@
+.weather{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    background-color:pink;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.weather h2{
+    font-size: 20px;
+}
+
+.error{
+    color:red;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.separator{
+    height: 1px;
+    width: 100%;
+    margin: 15px 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator::before{
+    content: "or";
+    font-size: 19px;
+    padding: 0 15px;
+    background-color:pink;
+    color: black;
+}
+
+.wea-button{
+    color:black;
+    cursor: pointer;
+    background-color:#007bff;
+    font-size: 18px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.search input{
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(222,237,243);
+    color:black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+    margin-bottom: -5px;
+}
+
+.search button{
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 15px;
+}
+
+.winfo img{
+    margin-top: 20px;
+    padding-top:10px;
+    width: 150px;
+}
+
+.winfo h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.winfo h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.winfo h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px; 
+    margin: 0 auto;
+  }
+
+.details-container .col img{
+    width: 60px;
+    margin: 10px;
+}
+
+  .col {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .humidity, .wind {
+    font-size: 15px;
+    color:black;
+}
+
+  .humidity p, .wind p {
+    margin: 0px;
+    padding: 0px;
+}
+  
+  
+  @media (max-width: 600px) {
+    .details-container {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .col {
+      margin: 10px 0;
+    }
+  }
+  
+
+.suggested-dress {
+    max-width: 400px;
+    font-size: 18px;
+    background-color: #007bff; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.suggested-dress:hover {
+    background-color: #2980b9; 
+    color:whitesmoke;
+} 
+
+.color-suggestion, .clothing-suggestion {
+    font-size: 18px;
+    padding: 10px;
+    
+  }
+  
+.color-names, .clothing-names {
+    font-weight: bold;
+  }
+  
+  

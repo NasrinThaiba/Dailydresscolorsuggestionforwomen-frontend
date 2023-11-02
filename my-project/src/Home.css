@@ -1,0 +1,43 @@
+.home-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightpink;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.home-container h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.home-container h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.home-container button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    font-weight: bold;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-container button:hover {
+    background-color: #034892;
+  }
+  
+  .home-container button + button {
+    margin-top: 10px;
+  }
+  
